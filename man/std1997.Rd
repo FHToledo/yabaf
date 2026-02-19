@@ -12,7 +12,7 @@ data(std1997)
 }
 \description{
 Split plot design example data set. Reproducible results.
-    Check data and outputs in reference (\insertCite{data;textual}{yabaf}).
+    Check data and outputs in reference (\insertCite{std;textual}{yabaf}).
 }
 \references{
 \insertAllCited{}
