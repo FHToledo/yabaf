@@ -2,10 +2,13 @@
 
 export(Breeder)
 export(Lattice)
+export(Pedigree)
 export(SplitPlot)
 exportClasses(Breeder)
 exportClasses(Lattice)
+exportClasses(Pedigree)
 exportClasses(SplitPlot)
+import(AGHmatrix)
 import(emmeans)
 import(lme4)
 import(methods)

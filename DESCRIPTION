@@ -1,8 +1,8 @@
 Package: yabaf
 Type: Package
 Title: Yet Another Breeding Analytic Framework
-Version: 1.1.0
-Date: 2026-02-19
+Version: 1.1.1
+Date: 2026-02-20
 Author: Fernando H Toledo [aut, cre]
 Maintainer: Fernando H Toledo <f.toledo@cgiar.org>
 Authors@R: person(given = c("Fernando", "H"),
@@ -12,13 +12,13 @@ Authors@R: person(given = c("Fernando", "H"),
 Description: Abstract interface for mapped tabular objects. A concrete
    in-memory and in-file implementations. Breeder friendly methods to
    compose analytical pipelines.
-Depends: R (>= 4.5.0), methods, lme4, emmeans
+Depends: R (>= 4.5.0), methods, lme4, emmeans, AGHmatrix
 Imports: Rdpack
 Suggests: testthat (>= 3.0.0)
 RdMacros: Rdpack
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 NeedsCompilation: no
-Collate: 'Package.R' 'Interface.R' 'Lattice.R'
+Collate: 'Package.R' 'Interface.R' 'Lattice.R' 'Pedigree.R'
 RoxygenNote: 7.3.2
 Config/testthat/edition: 3
