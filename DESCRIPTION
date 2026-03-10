@@ -12,13 +12,13 @@ Authors@R: person(given = c("Fernando", "H"),
 Description: Abstract interface for mapped tabular objects. A concrete
    in-memory and in-file implementations. Breeder friendly methods to
    compose analytical pipelines.
-Depends: R (>= 4.5.0), methods, lme4, emmeans, AGHmatrix
+Depends: R (>= 4.5.0), methods, lme4, emmeans, asreml, AGHmatrix
 Imports: Rdpack
 Suggests: nlme, testthat (>= 3.0.0)
 RdMacros: Rdpack
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 NeedsCompilation: no
-Collate: 'Package.R' 'Interface.R' 'RCBD.R' 'Lattice.R' 'Pedigree.R'
+Collate: 'Package.R' 'Interface.R' 'RCBD.R' 'Lattice.R' 'ACBD.R' 'Pedigree.R'
 RoxygenNote: 7.3.2
 Config/testthat/edition: 3
