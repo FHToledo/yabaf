@@ -1,14 +1,19 @@
 Package: yabaf
 Type: Package
 Title: Yet Another Breeding Analytic Framework
-Version: 1.1.2
-Date: 2026-03-03
+Version: 1.1.3
+Date: 2026-03-19
 Author: Fernando H Toledo [aut, cre]
 Maintainer: Fernando H Toledo <f.toledo@cgiar.org>
-Authors@R: person(given = c("Fernando", "H"),
-                  family = "Toledo",
-                  role = c("aut", "cre"),
-                  email = "f.toledo@cgiar.org")
+Authors@R:
+    c(person(given = c("Fernando", "H"),
+             family = "Toledo",
+             role = c("aut", "cre"),
+             email = "f.toledo@cgiar.org"),
+      person(given = c("Angela"),
+             family = "Pacheco",
+             role = c("aut"),
+             email = "r.a.pacheco@cgiar.org"))
 Description: Abstract interface for mapped tabular objects. A concrete
    in-memory and in-file implementations. Breeder friendly methods to
    compose analytical pipelines.

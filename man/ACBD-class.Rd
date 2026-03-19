@@ -6,22 +6,22 @@
 \alias{ACBD}
 \title{Concrete interface for ACBD designs}
 \description{
-  Specialized Concrete Definition.
+Specialized Concrete Definition.
 }
 \section{Fields}{
-  
-  \describe{
-    \item{\code{report}}{list or analytical summary.}
-  }}
+
+\describe{
+\item{\code{report}}{list or analytical summary.}
+}}
 
 
 \examples{
-  data(stg12025, package = "yabaf")
-  b <- Breeder(stg12025)
-  l <- ACBD(b)
-  l$report$fit$sigma
+data(wheat, package = "yabaf")
+b <- Breeder(wheat)
+a <- ACBD(b)
+a$report$fit$sigma
 }
 \seealso{
-  [Breeder() and SplitPlot()] for the pure virtual and concrete
-  abstract template.
+[Breeder() and SplitPlot()] for the pure virtual and concrete
+    abstract template.
 }
