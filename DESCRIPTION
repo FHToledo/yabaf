@@ -1,9 +1,9 @@
 Package: yabaf
 Type: Package
 Title: Yet Another Breeding Analytic Framework
-Version: 1.1.4
+Version: 1.1.5
 Date: 2026-03-30
-Author: Fernando H Toledo [aut, cre], Angela Pacheco [aut]
+Author: Fernando H Toledo [aut, cre], Angela Pacheco [aut], Lorena Batista [aut]
 Maintainer: Fernando H Toledo <f.toledo@cgiar.org>
 Authors@R:
     c(person(given = c("Fernando", "H"),
@@ -13,18 +13,22 @@ Authors@R:
       person(given = c("Angela"),
              family = "Pacheco",
              role = c("aut"),
-             email = "r.a.pacheco@cgiar.org"))
+             email = "r.a.pacheco@cgiar.org"),
+      person(given = c("Lorena"),
+             family = "Batista",
+             role = c("aut"),
+             email = "l.guimaraes@cgiar.org"))
 Description: Abstract interface for mapped tabular objects. A concrete
    in-memory and in-file implementations. Breeder friendly methods to
    compose analytical pipelines.
 Depends: R (>= 4.5.0), methods, lme4, emmeans, asreml, AGHmatrix
 Imports: Rdpack
-Suggests: nlme, testthat (>= 3.0.0)
+Suggests: nlme, testthat (>= 3.0.0), agridat
 RdMacros: Rdpack
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 NeedsCompilation: no
-Collate: 'Package.R' 'Interface.R' 'RCBD.R' 'Lattice.R' 'ACBD.R' 'Trial.R'
-         'Pedigree.R'
-RoxygenNote: 7.3.2
+Collate: 'Package.R' 'Interface.R' 'RCBD.R' 'Lattice.R' 'ACBD.R' 'Augmented.R'
+         'Trial.R' 'Pedigree.R'
+RoxygenNote: 7.3.3
 Config/testthat/edition: 3
